@@ -1,0 +1,45 @@
+definitions:
+  model.HelloApi:
+    properties:
+      apiGroup:
+        type: string
+      createAt:
+        type: string
+      description:
+        type: string
+      id:
+        type: integer
+      method:
+        type: string
+      path:
+        type: string
+      updateAt:
+        type: string
+    type: object
+info:
+  contact: {}
+paths:
+  /api/v1/base/hello:
+    get:
+      consumes:
+      - application/json
+      parameters:
+      - description: api路径, api中文描述, api组, 方法
+        in: body
+        name: data
+        required: true
+        schema:
+          $ref: '#/definitions/model.HelloApi'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: '{"success":true,"data":{},"msg":"创建成功"}'
+          schema:
+            type: string
+      security:
+      - ApiKeyAuth: []
+      summary: 创建Hello api
+      tags:
+      - HelloApi
+swagger: "2.0"

@@ -1,0 +1,5 @@
+# system configuration
+system:
+  env: 'public'
+  addr: 8080
+
