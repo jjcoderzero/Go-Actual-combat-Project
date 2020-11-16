@@ -1,6 +1,6 @@
 package utils
 
 const (
-	ConfigEnv = "CRC_CONFIG"
+	ConfigEnv  = "CRC_CONFIG"
 	ConfigFile = "config.yaml"
 )

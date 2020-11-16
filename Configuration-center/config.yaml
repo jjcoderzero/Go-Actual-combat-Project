@@ -1,5 +1,5 @@
 # system configuration
 system:
   env: 'public'
-  addr: 8080
+  addr: 9999
 

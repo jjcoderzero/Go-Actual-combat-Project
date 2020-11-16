@@ -22,6 +22,7 @@ func Routers() *gin.Engine {
 
 	ApiV1Group := Router.Group("/api/v1")
 	routes.InitBaseRouter(ApiV1Group)
+	routes.InitKubernetesRouter(ApiV1Group)
 	global.CRC_LOG.Info("router register success")
 	return Router
 }

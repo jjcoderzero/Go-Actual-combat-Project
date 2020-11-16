@@ -96,4 +96,3 @@ func getEncoderCore() (core zapcore.Core) {
 func CustomTimeEncoder(t time.Time, enc zapcore.PrimitiveArrayEncoder) {
 	enc.AppendString(t.Format(global.CRC_CONFIG.Zap.Prefix + "2006/01/02 - 15:04:05.000"))
 }
-

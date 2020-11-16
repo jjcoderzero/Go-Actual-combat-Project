@@ -1,10 +1,15 @@
 package routes
 
-import "github.com/gin-gonic/gin"
+import (
+	v1 "Configuration-center/api/v1"
+	"github.com/gin-gonic/gin"
+)
 
-func InitKubernetesRouter(Router *gin.RouterGroup) (R *gin.IRouter)  {
+func InitKubernetesRouter(Router *gin.RouterGroup) (R gin.IRouter) {
 	KubernetesGroup := Router.Group("k8s")
 	{
-		KubernetesGroup.POST("pods", v1.)
+		KubernetesGroup.GET("deployment/", v1.GetAssignDeploymentInfo)
+		KubernetesGroup.GET("deploymentList", v1.ListDeployments)
 	}
+	return KubernetesGroup
 }
