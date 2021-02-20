@@ -23,11 +23,6 @@ func init() {
 	}
 }
 
-//func GetPods() {
-//	pods := clientset.CoreV1().Pods("default")
-//	pods.Get(context.TODO())
-//}
-
 func GetDeployment(namespace, deploymentName string) (deployment *v1beta1.Deployment) {
 	deploymentClient := clientset.AppsV1beta1().Deployments(namespace)
 	deployment, err := deploymentClient.Get(context.TODO(), deploymentName, v1.GetOptions{})
@@ -37,7 +32,7 @@ func GetDeployment(namespace, deploymentName string) (deployment *v1beta1.Deploy
 	return deployment
 }
 
-func ListDeployment(namespace string) (deploymentList *v1beta1.DeploymentList)  {
+func ListDeployment(namespace string) (deploymentList *v1beta1.DeploymentList) {
 	deploymentClient := clientset.AppsV1beta1().Deployments(namespace)
 	deploymentList, err := deploymentClient.List(context.TODO(), v1.ListOptions{})
 	if err != nil {

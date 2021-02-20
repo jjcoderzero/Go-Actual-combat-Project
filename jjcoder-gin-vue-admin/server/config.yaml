@@ -1,0 +1,41 @@
+server:
+  serverPort: 9999
+
+mysql:
+  driver: mysql
+  user: root
+  password: 123456
+  host: 127.0.0.1:3306
+  database: jjcoder_gin_vue_admin
+
+redis:
+  addr: 127.0.0.1:16379
+  password: 123456
+  db: 0
+
+kubernetes:
+
+ldap:
+  host: 127.0.0.1
+  port: 30004
+#  username: cn=admin,dc=test,dc=com
+#  password: 123456
+  basedn: ou=product,dc=test,dc=com
+  ldapattributes:
+    uname: awan
+    name: andrw wan
+    email: jjcoderzero@gmail.com
+    department: product
+
+jenkins:
+  url: https://mobile-jenkins.shdrapps.disney.com/
+  username: wanj016
+  password: 520myself.
+
+etcd:
+  url: 127.0.0.1:32779
+
+github:
+  accesstoken: ce8ee89f4a5edfc6dea2f9c8efe4adafa12bac95
+
+

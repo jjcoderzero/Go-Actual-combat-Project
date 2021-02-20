@@ -1,0 +1,16 @@
+{
+  "db": {
+    "host": "localhost",
+    "port": 3306,
+    "password": "123456",
+    "user": "root",
+    "table": "product",
+    "database": "jjcoder_gin_vue_admin",
+    "packageName": "models",
+    "structName": "Product",
+    "structSorted": true,
+    "jsonAnnotation": true,
+    "xmlAnnotation": false,
+    "gormAnnotation": true
+      }
+}

@@ -1,0 +1,40 @@
+settings:
+  flimit: 10000 # 文件句柄数限制
+  legacy:
+    force: false
+    interval: 0s
+server:
+  status: true
+  open: false
+  port: 9090
+  host: localhost
+schema:
+  - name: server
+    path: /Users/wanj016/Desktop/source-code-reading/Go-Actual-combat-Project/jjcoder-gin-vue-admin/server/
+    commands:
+      clean:
+        status: true
+      vet:
+        status: true
+      fmt:
+        status: true
+      test:
+        status: true
+      generate:
+        status: true
+      install:
+        status: true
+      build:
+        status: true
+      run:
+        status: true
+    watcher:
+      extensions:
+        - go
+      paths:
+        - /
+      ignore:
+        paths:
+          - .git
+          - .realize
+          - vendor

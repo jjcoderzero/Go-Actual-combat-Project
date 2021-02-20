@@ -1,0 +1,39 @@
+version: '2.3'
+services:
+  openldap:
+    image: osixia/openldap
+    container_name: openldap
+    environment:
+      - TZ=Asia/Shanghai
+        # - LDAP_ORGANISATION="jjcoder"
+        # - LDAP_DOMAIN="jjcoder.com"
+        # - LDAP_ADMIN_PASSWORD="123456"
+    ports:
+      - 389:389
+      - 636:636
+    command: [--copy-service,  --loglevel, debug]
+    # volumes:
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "10"
+  php:
+    image: osixia/phpldapadmin
+    container_name: phpopenldap
+    environment:
+      - TZ=Asia/Shanghai
+      - PHPLDAPADMIN_HTTPS="false"
+      - PHPLDAPADMIN_LDAP_HOSTS=openldap
+    ports:
+      - 10004:80
+    depends_on: 
+      - openldap
+    links:
+      - openldap
+    # volumes:
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "10"

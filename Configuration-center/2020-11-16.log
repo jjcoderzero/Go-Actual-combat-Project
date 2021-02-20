@@ -90,3 +90,107 @@
 2020/11/16 - 17:17:39.649	info	register swagger handler
 2020/11/16 - 17:17:39.650	info	router register success
 2020/11/16 - 17:17:39.650	info	server run success on 	{"address": ":9999"}
+2020/11/16 - 22:44:12.560	info	use middleware logger
+2020/11/16 - 22:44:12.561	info	use middleware cors
+2020/11/16 - 22:44:12.561	info	register swagger handler
+2020/11/16 - 22:44:12.561	info	router register success
+2020/11/16 - 22:44:12.562	info	server run success on 	{"address": ":9999"}
+2020/11/16 - 23:20:54.628	error	accept tcp [::]:9999: use of closed network connection
+2020/11/16 - 23:21:08.890	info	use middleware logger
+2020/11/16 - 23:21:08.890	info	use middleware cors
+2020/11/16 - 23:21:08.890	info	register swagger handler
+2020/11/16 - 23:21:08.890	info	router register success
+2020/11/16 - 23:21:08.890	info	server run success on 	{"address": ":9999"}
+2020/11/16 - 23:24:02.557	error	accept tcp [::]:9999: use of closed network connection
+2020/11/16 - 23:24:44.690	info	use middleware logger
+2020/11/16 - 23:24:44.691	info	use middleware cors
+2020/11/16 - 23:24:44.691	info	register swagger handler
+2020/11/16 - 23:24:44.691	info	router register success
+2020/11/16 - 23:24:44.691	info	server run success on 	{"address": ":9999"}
+2020/11/16 - 23:29:46.841	error	accept tcp [::]:9999: use of closed network connection
+2020/11/16 - 23:29:53.491	info	use middleware logger
+2020/11/16 - 23:29:53.491	info	use middleware cors
+2020/11/16 - 23:29:53.491	info	register swagger handler
+2020/11/16 - 23:29:53.491	info	router register success
+2020/11/16 - 23:29:53.491	info	server run success on 	{"address": ":9999"}
+2020/11/16 - 23:32:39.461	error	accept tcp [::]:9999: use of closed network connection
+2020/11/16 - 23:32:58.345	info	use middleware logger
+2020/11/16 - 23:32:58.346	info	use middleware cors
+2020/11/16 - 23:32:58.346	info	register swagger handler
+2020/11/16 - 23:32:58.346	info	router register success
+2020/11/16 - 23:32:58.346	info	server run success on 	{"address": ":9999"}
+2020/11/16 - 23:33:44.353	error	accept tcp [::]:9999: use of closed network connection
+2020/11/16 - 23:33:48.609	info	use middleware logger
+2020/11/16 - 23:33:48.610	info	use middleware cors
+2020/11/16 - 23:33:48.610	info	register swagger handler
+2020/11/16 - 23:33:48.610	info	router register success
+2020/11/16 - 23:33:48.610	info	server run success on 	{"address": ":9999"}
+2020/11/16 - 23:37:48.006	error	accept tcp [::]:9999: use of closed network connection
+2020/11/16 - 23:37:52.486	info	use middleware logger
+2020/11/16 - 23:37:52.487	info	use middleware cors
+2020/11/16 - 23:37:52.487	info	register swagger handler
+2020/11/16 - 23:37:52.487	info	router register success
+2020/11/16 - 23:37:52.487	info	server run success on 	{"address": ":9999"}
+2020/11/16 - 23:39:34.877	error	accept tcp [::]:9999: use of closed network connection
+2020/11/16 - 23:39:41.805	info	use middleware logger
+2020/11/16 - 23:39:41.806	info	use middleware cors
+2020/11/16 - 23:39:41.806	info	register swagger handler
+2020/11/16 - 23:39:41.806	info	router register success
+2020/11/16 - 23:39:41.806	info	server run success on 	{"address": ":9999"}
+2020/11/16 - 23:43:12.210	error	accept tcp [::]:9999: use of closed network connection
+2020/11/16 - 23:43:16.427	info	use middleware logger
+2020/11/16 - 23:43:16.428	info	use middleware cors
+2020/11/16 - 23:43:16.428	info	register swagger handler
+2020/11/16 - 23:43:16.428	info	router register success
+2020/11/16 - 23:43:16.428	info	server run success on 	{"address": ":9999"}
+2020/11/16 - 23:43:31.916	error	accept tcp [::]:9999: use of closed network connection
+2020/11/16 - 23:43:37.355	info	use middleware logger
+2020/11/16 - 23:43:37.356	info	use middleware cors
+2020/11/16 - 23:43:37.356	info	register swagger handler
+2020/11/16 - 23:43:37.356	info	router register success
+2020/11/16 - 23:43:37.356	info	server run success on 	{"address": ":9999"}
+2020/11/16 - 23:44:24.019	error	accept tcp [::]:9999: use of closed network connection
+2020/11/16 - 23:44:53.532	info	use middleware logger
+2020/11/16 - 23:44:53.533	info	use middleware cors
+2020/11/16 - 23:44:53.533	info	register swagger handler
+2020/11/16 - 23:44:53.533	info	router register success
+2020/11/16 - 23:44:53.533	info	server run success on 	{"address": ":9999"}
+2020/11/16 - 23:46:23.014	error	accept tcp [::]:9999: use of closed network connection
+2020/11/16 - 23:46:57.296	info	use middleware logger
+2020/11/16 - 23:46:57.297	info	use middleware cors
+2020/11/16 - 23:46:57.297	info	register swagger handler
+2020/11/16 - 23:46:57.297	info	router register success
+2020/11/16 - 23:46:57.297	info	server run success on 	{"address": ":9999"}
+2020/11/16 - 23:49:07.019	error	accept tcp [::]:9999: use of closed network connection
+2020/11/16 - 23:49:11.570	info	use middleware logger
+2020/11/16 - 23:49:11.571	info	use middleware cors
+2020/11/16 - 23:49:11.571	info	register swagger handler
+2020/11/16 - 23:49:11.571	info	router register success
+2020/11/16 - 23:49:11.571	info	server run success on 	{"address": ":9999"}
+2020/11/16 - 23:50:01.189	error	accept tcp [::]:9999: use of closed network connection
+2020/11/16 - 23:50:20.890	info	use middleware logger
+2020/11/16 - 23:50:20.891	info	use middleware cors
+2020/11/16 - 23:50:20.891	info	register swagger handler
+2020/11/16 - 23:50:20.891	info	router register success
+2020/11/16 - 23:50:20.891	info	server run success on 	{"address": ":9999"}
+2020/11/16 - 23:51:27.070	error	accept tcp [::]:9999: use of closed network connection
+2020/11/16 - 23:51:32.112	info	use middleware logger
+2020/11/16 - 23:51:32.113	info	use middleware cors
+2020/11/16 - 23:51:32.113	info	register swagger handler
+2020/11/16 - 23:51:32.113	info	router register success
+2020/11/16 - 23:51:32.113	info	server run success on 	{"address": ":9999"}
+2020/11/16 - 23:51:39.541	error	accept tcp [::]:9999: use of closed network connection
+2020/11/16 - 23:51:44.618	info	use middleware logger
+2020/11/16 - 23:51:44.618	info	use middleware cors
+2020/11/16 - 23:51:44.618	info	register swagger handler
+2020/11/16 - 23:51:44.618	info	router register success
+2020/11/16 - 23:51:44.618	info	server run success on 	{"address": ":9999"}
+2020/11/16 - 23:51:47.454	error	accept tcp [::]:9999: use of closed network connection
+2020/11/16 - 23:51:51.888	info	use middleware logger
+2020/11/16 - 23:51:51.888	info	use middleware cors
+2020/11/16 - 23:55:21.480	info	use middleware logger
+2020/11/16 - 23:55:21.481	info	use middleware cors
+2020/11/16 - 23:55:34.311	info	use middleware logger
+2020/11/16 - 23:55:34.311	info	use middleware cors
+2020/11/16 - 23:58:39.161	info	use middleware logger
+2020/11/16 - 23:58:39.162	info	use middleware cors

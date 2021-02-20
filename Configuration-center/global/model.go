@@ -5,7 +5,7 @@ import (
 	"time"
 )
 
-type CGC_MODEL struct {
+type CRC_MODEL struct {
 	ID       uint `gorm:"primarykey"`
 	CreateAt time.Time
 	UpdateAt time.Time
